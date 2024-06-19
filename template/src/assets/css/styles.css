@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17, 17, 65);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+main {
+  background-color: rgb(234,254,255);
+  background: linear-gradient(0deg, rgba(234,254,255,1) 0%, rgba(135,170,171,1) 100%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30rem;
+  padding: 5rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin: 0;
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  background-color: aliceblue;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.121);
+}
+
+.plane {
+  animation-name: lightSpeedInRight, rotateOut;
+  animation-duration: 2s, 1s;
+  animation-delay: 0s, 5s;
+  width: 300px;
+}
+
+.div_bird {
+  width: 100%;
+  align-items: flex-end;
+}
+
+.bird {
+  width: 200px;
+  animation-name: rotateInDownRight, flip, zoomOutUp;
+  animation-duration: 1s, 1s, 2s;
+  animation-delay: 0s, 5s, 6s;
+}
+
+.div_butterfly {
+  align-items: center;
+}
+
+.butterfly1 {
+  position: relative;
+  left: -40px;
+  width: 80px;
+  animation-name: shakeX;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.butterfly2 {
+  position: relative;
+  left: 120px;
+  width: 60px;
+  animation-name: shakeY;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
